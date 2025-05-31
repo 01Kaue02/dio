@@ -8,10 +8,19 @@
 <body>
     <form onsubmit="" method="get">
         <label>Nome: </label><input type="text" name="name"><br>
-        <label>Cargo: </label><input type="text" name="name"><br>
+        <label>Cargo: </label> 
+        
+         <select name="cargo">
+            <option value="">Selecione o cargo</option>
+            <option value="dev">Desenvolvedor</option>
+            <option value="qa">QA</option>
+            <option value="po">PO</option>
+         </select>
+         <br>
         <label>Assunto: </label><input type="text" name="name"><br>
+        <label> Mensagem:</label>
+        <textarea name="mensagem"></textarea>
         <button type="submit">Enviar</button>
-
     </form>
     
 </body>
