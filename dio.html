@@ -6,28 +6,26 @@
     <title>Trhilha de CSS</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <style>
-    [href*=".com"] {
-        background: lightgreen;
+    <style> 
+    p, div {
+        color : blueviolet
+    }
+    a {
+        color: red;
+        text-decoration: none;
     }
        </style>
 </head>
 <body>
-    <div>
-        <ul>
-            <li>
-                <a title="front CSS" href="https://www.w3schools.com/css/">CSS</a>
-            </li>
-            <li>
-                <a title="front CSS Selectors" href="https://www.w3schools.com/css/css_selectors.asp">CSS Selectors</a>
-            </li>
-            <li>
-                <a title="Spotify" href="https://www.spotify.com/">Spotify</a>
-            </li>
-            <li>
-                <a title="Google" href="https://www.google.com/">Google</a>
-            </li>
-        </ul>
-    </div>
+    <h1> Agrupamento de Seletores</h1>
+    <p classe="teste">Podemos aplicar as mesma regras CSS para vários seletores diferentes. Para isso, podemos separar os seletores utilizando uma vírgula(,).</p>
+    <div classe = "texto"> Assím, não precisamos ficar copiando e colando os mesmos códigos para todos, nós podemos fazer um só bloco de CSS e reutilizar as mesma regras!</div>
+
+        <br><br>
+        <a id="link-referencia" href="https://www.google.com">Link para o Google</a>
+        <br><br>
+        <a id="link-referencia" href="https://www.youtube.com">Link para o YouTube</a>
+        <br><br>
+        <button id="botao-fechar">Fechar pagína</button>
 </body>
 </html>
