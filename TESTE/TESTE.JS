@@ -6,5 +6,5 @@ function somar(a, b) {
 }
 
 // Testando a função
-const resultado = somar(5, 7);
+const resultado = somar(5555, 7);
 console.log("O resultado da soma é:", resultado);
