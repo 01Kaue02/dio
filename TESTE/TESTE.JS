@@ -1,10 +1,4 @@
-console.log("Olá, Kaue! Este é seu primeiro programa em Node.js");
+const notificacao = "Pokemon Go diz:"
 
-// Função para somar dois números
-function somar(a, b) {
-  return a + b;
-}
-
-// Testando a função
-const resultado = somar(5555, 7);
-console.log("O resultado da soma é:", resultado);
+console.log(notificacao + " tem um novo pokemon na região!");
+console.log(notificacao + " você foi derrotado por um pokemon!");
