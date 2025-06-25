@@ -1,4 +1,6 @@
-const notificacao = "Pokemon Go diz:"
-
-console.log(notificacao + " tem um novo pokemon na região!");
-console.log(notificacao + " você foi derrotado por um pokemon!");
+let potecafe = "cafe forte"
+let poteacuca = "Açucar"
+let potebiscoito = "Biscoito de chocolate" 
+ 
+console.log("Na cozinha da vovó tem:" + 
+  potecafe + ", " + poteacuca + " e " + potebiscoito);
