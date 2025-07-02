@@ -1,8 +1,14 @@
-const numero = 11;
-const numeroPar = (numero % 2) === 0 ;
+const nota1 = 7;
+const nota2 = 2;
+const nota3 = 6;
+let media = (nota1 + nota2 + nota3) / 3;
 
-if (numeroPar) {
-  console.log("O número é par");
+console.log("A média é: " + media);
+if (media < 5) {
+  console.log("Reprovado");
+}
+else if (media >= 5 && media <= 7) {
+  console.log("Recuperação");
 } else {
-  console.log("O número é ímpar");
+  console.log("Aprovado");
 }
