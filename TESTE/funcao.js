@@ -1,6 +1,6 @@
-function sayMyname(name) {
-    console.log("Your name is: " + name);
+function quadrado(valor) {
+ return valor * valor;
 }
 
-sayMyname("Renan"); 
-sayMyname ("Vitor")// Chamada da função teste
+const quadradoDeDez = quadrado(10);
+console.log(`O quadrado de 10 é: ${quadradoDeDez}`);
