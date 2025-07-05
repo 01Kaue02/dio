@@ -1,13 +1,23 @@
-const kaue ={
-    nome: "Kaue",
-    idade: 20,
-    profissao: "Programador",
-    genero: "Masculino",
-    hobbies: ["Jogos", "Música", "Esportes"],
-    descrever: function() {
-        console.log(`Nome: ${this.nome}, Idade: ${this.idade}, Profissão: ${this.profissao}, Gênero: ${this.genero}`);
+class Pessoa{
+
+
+    nome;
+    idade;
+
+     descrever ( ){
+               console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+ 
     }
-};
+}
+const kaue = new Pessoa();
+kaue.nome = "Kaue";
+kaue.idade = 25;
 
 
-console.log(kaue ["nome"])
+const Rennan = new Pessoa();
+Rennan.nome = "Rennan kdkd";
+Rennan.idade = 25;
+kaue.descrever();
+Rennan.descrever();
+
+
