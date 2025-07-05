@@ -4,10 +4,10 @@ const kaue ={
     profissao: "Programador",
     genero: "Masculino",
     hobbies: ["Jogos", "Música", "Esportes"],
+    descrever: function() {
+        console.log(`Nome: ${this.nome}, Idade: ${this.idade}, Profissão: ${this.profissao}, Gênero: ${this.genero}`);
+    }
 };
-console.log(kaue.nome); // "Kaue"
-console.log(kaue.idade); // 20
-console.log(kaue.profissao); // "Programador"
-console.log(kaue.genero); // "Masculino"
-console.log(kaue.hobbies); // ["Jogos", "Música", "Es
-console.log(kaue);
+
+
+console.log(kaue ["nome"])
