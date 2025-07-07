@@ -1,26 +1,20 @@
-function calucularIMC(peso, altura) {
-  return peso / (altura * altura);
-}
-    function classificarIMC(imc) {
-        if (imc < 18.5) {
-        return("Abaixo do peso");
-} else if (imc >= 18.5 && imc < 24.9) {
-        return("Peso normal");
-} else if (imc >= 25 && imc < 29.9) {
-        return("Sobrepeso");
-} else if (imc >= 30 && imc < 34.9) {
-        return("Obesidade grau 1");
-} else if (imc >= 35 && imc <39.9) {
-    return("Obesidade grau 2");
-} else {
-    return("Obesidade grau 3");
-}
-    }
-    function main() {
-const peso= 75; // Peso em kg
-const altura = 1.60; // Altura em metros
-const imc = calucularIMC(peso, altura); // Cálculo do IMC
-console.log(classificarIMC(imc)); // Exibe o IMC com duas casas decimais
-    }
+class Pessoa{
+nome;
+peso;
+altura;
 
-    main(); // Chama a função principal para executar o programa
+constructor(nome, peso, altura) {
+    this.nome = nome;
+    this.peso = peso;
+    this.altura = altura;
+}
+    calcularImc() {
+        return (this.peso / (this.altura * this.altura)).toFixed(2);
+    }
+}
+    const jose = new Pessoa("José", 70, 1.75);
+    console.log(jose.calcularImc()); // Exemplo de uso
+    const maria = new Pessoa("Maria", 60, 1.65);
+    console.log(maria.calcularImc()); // Exemplo de uso
+    const pedro = new Pessoa("Pedro", 80, 1.80);
+    console.log(pedro.calcularImc()); // Exemplo de uso
