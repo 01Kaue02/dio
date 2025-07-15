@@ -7,9 +7,12 @@
 </head>
 <body>
     <h1> Olá, mundo</h1>
-    <button type="button">Clique aqui</button>
+    <button id="btnTeste">Clique aqui</button>
     <script>
-        
+        const btnTeste = document.getElementById('btnTeste');
+        btnTeste.addEventListener('clink', function() {
+            console.log('Botão clicado!');
+        })
     </script>
 </body>
 </html>
