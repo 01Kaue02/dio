@@ -1,5 +1,17 @@
 .container{
     display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(../imagens/OIP.webp);
+}
+.numb{
+    color:white;
+}
+.menu-time{
+    color: rgb(255, 0, 0);
+}
+.class-menu-score{
+    color: rgb(255, 0, 0);
 }
 .menu{
     display: flex;
@@ -9,4 +21,28 @@
     width: 100%;
     background-color: rgb(0, 0, 0);
     color: white;
+    border-bottom: 5px solid rgb(255, 247, 0);
+}
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+.square{
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 150px;
+    background-color: rgb(103, 221, 182);
+}
+.enemy{
+    background-image: url(../imagens/DETONA\ RALPH\ \(1\).png);
+    background-size: cover;
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
